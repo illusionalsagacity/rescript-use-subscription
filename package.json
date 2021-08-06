@@ -1,0 +1,22 @@
+{
+  "name": "rescript-use-subscription",
+  "version": "0.1.0",
+  "description": "Zero-cost ReScript bindings to use-subscription",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rescript",
+    "use-subscription"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "rescript": "^9.1.4",
+    "use-subscription": "^1.5.1"
+  },
+  "peerDependencies": {
+    "@rescript/react": "*",
+    "use-subscription": "^1.5.1"
+  }
+}
