@@ -1,6 +1,6 @@
 {
   "name": "rescript-use-subscription",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Zero-cost ReScript bindings to use-subscription",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
