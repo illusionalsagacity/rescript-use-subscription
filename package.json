@@ -5,8 +5,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "github:illusionalsagacity/rescript-use-subscription",
   "keywords": [
     "rescript",
+    "react",
+    "@rescript/react",
     "use-subscription"
   ],
   "license": "MIT",
@@ -18,5 +21,10 @@
   "peerDependencies": {
     "@rescript/react": "*",
     "use-subscription": "^1.5.1"
+  },
+  "peerDependenciesMeta": {
+    "@rescript/react": {
+      "optional": true
+    }
   }
 }
