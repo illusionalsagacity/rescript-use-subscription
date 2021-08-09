@@ -2,10 +2,10 @@
 
 import * as React from "react";
 import * as Belt_Option from "rescript/lib/es6/belt_Option.js";
-import * as CreateSubscription from "create-subscription";
+import * as UseSubscription from "use-subscription";
 
 function useSubscription(prim) {
-  return CreateSubscription.useSubscription(prim);
+  return UseSubscription.useSubscription(prim);
 }
 
 function UseSubscription__test(Props) {
@@ -22,7 +22,7 @@ function UseSubscription__test(Props) {
                   })
               };
       });
-  var val = CreateSubscription.useSubscription(options);
+  var val = UseSubscription.useSubscription(options);
   return React.createElement("div", undefined, Belt_Option.mapWithDefault(val, null, (function (prim) {
                     return prim;
                   })));

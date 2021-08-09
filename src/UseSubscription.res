@@ -3,5 +3,5 @@ type options<'value> = {
   subscribe: ((. 'value) => unit) => (. unit) => unit,
 }
 
-@module("create-subscription")
+@module("use-subscription")
 external useSubscription: (options<'value>) => 'value = "useSubscription"
