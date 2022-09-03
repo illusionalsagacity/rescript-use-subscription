@@ -1,5 +1,9 @@
 # rescript-use-subscription
 
+## ⚠️ Deprecated
+
+The `use-subscription` package is now just a wrapper for `use-sync-external-store`. New bindings can be found [here](https://github.com/illusionalsagacity/rescript-use-sync-external-store) with migration instructions.
+
 This is a zero-cost ReScript binding package for use with [use-subscription](https://github.com/facebook/react/tree/main/packages/use-subscription)
 
 ## Usage
